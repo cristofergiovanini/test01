@@ -1,0 +1,94 @@
+/*CSS PARA TELA DE CELULAR*/
+
+
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    background-color: #5f2c82;
+    height: 100vh;
+    width: 100vw;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 3px 9px 22px 5px rgba(0, 0, 0, 0.5);
+    
+    transition: width 0.9s, height 09s;
+    transition-timing-function: ease;
+}
+
+section#login div#imagem{
+    display: block;
+    background-position: left;
+    background-image: url(metal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:200px;
+    
+}
+section#login div#formulario{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario p{
+    font-size: 0.8em;
+}
+
+.campo{
+ background-color: #5F2C82;
+ border-radius: 20px;
+ box-shadow: 1px 1px 1px 1px black;
+ margin-bottom: 10px;
+    
+    
+}
+main section div span#boneco{
+    font-size: 30px;
+    position: relative;
+    top: 7px;
+    left: -1px;
+}
+main section div span#boneco2{
+    font-size: 30px;
+    position: relative;
+    top: 3px;
+    left: -38px;
+}
+
+input#ilogin{
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    position: relative;
+    top: 0px;
+    left: 6px;
+}
+input#isenha{
+   
+    border-radius: 20px;
+    position: relative;
+    top: -5px;
+    left: 3px;
+}
+
+    

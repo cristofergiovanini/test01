@@ -1,0 +1,69 @@
+/* Typical Device Breakpoints
+------------------------------
+  Telas pequenas: até 600px
+  Celulares: de 600px
+  Tablets: de 768px 
+  Desktops: de 992px 
+  Telas Grandes: 1200px*/
+
+    /*Tela para Tablet >>> Esse CSS é apenas para tablets*/
+
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+      
+    body{
+        background-image: linear-gradient(to top, rgba(9, 9, 146, 0.733), rgb(143, 9, 114));
+    }
+    
+    
+    section#login{
+        width: 80vw;
+      }
+      section#login div#imagem{
+        float: right;
+         width: 30%;
+         height: 100%;
+
+      }
+      section#login div#formulario{
+        float: left;
+        width: 70%;
+      }
+                  
+}
+
+
+/*Desktops: de 992px */
+
+@media screen and (min-width: 992px) {
+
+
+    body{
+        background-image: linear-gradient(to top, rgba(81, 143, 81, 0.801), rgba(199, 64, 64, 0.459));
+    }
+
+    section#login{
+        width: 990px;
+    }
+    
+    section#login div#imagem{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+     section#login div#formulario{
+        float: left;
+        width: 50%;
+        
+     }
+     div#formulario p{
+        font-size: 1.5em;
+    }
+    div#formulario h1{
+        font-size: 1.5em;
+    }
+    
+    
+}
